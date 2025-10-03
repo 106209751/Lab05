@@ -11,6 +11,9 @@ aside {
     margin: 1em;
     padding: 1em;
     background:url(images/fade.jpg) repeat-x top left;
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 header {
@@ -23,5 +26,44 @@ header {
 
 footer {
     border-top: 4px double;
+    clear: both;
     
+}
+
+#lists {
+    float: left;
+}
+
+table {
+    margin: auto;
+}
+
+#tables{
+    float: right;
+}
+
+#hyperlinks{
+    clear: both;
+    float: left;
+}
+
+#images{
+    float: right;
+}
+
+figure{
+    border: 2px solid #ccc;
+}
+
+#lists, #images, #tables, #hyperlinks{
+    width: 50%;
+    text-align: center;
+}
+
+ol, dl, ul{
+    text-align: left;
+}
+
+article{
+    min-width: 30em;
 }
